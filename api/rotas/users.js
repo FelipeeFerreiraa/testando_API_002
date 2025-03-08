@@ -5,10 +5,10 @@ const rota = express.Router();
 
 rota.get("/", getUsers);
 
-rota.post("/", addUser);
+//rota.post("/", addUser);
 
-rota.put("/:id", updateUser);
+//rota.put("/:id", updateUser);
 
-rota.delete("/:id", deleteUser);
+//rota.delete("/:id", deleteUser);
 
 export default rota;
